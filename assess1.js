@@ -30,7 +30,7 @@
  // }
  // #4 
 //   let iAmBaldhead = true
-//  let counter = 0
+//  let counter = 1
 //   while (iAmBaldhead === true) {
       
       
