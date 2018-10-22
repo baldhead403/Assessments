@@ -8,11 +8,11 @@
 // // #2
 // let trueOrFalse  = "true"
 
-// if (trueOrFalse == "true") {
+// if (trueOrFalse) {
 //      console.log(1) 
-//      trueOrFalse = "false"    
+//          
 //     }
-//      else if (trueOrFalse == "false") {
+//      else {
 //         console.log(2)
 //     }
      
@@ -47,13 +47,17 @@
 
  function checkMe(canVote,) { 
         canVote = 'true'
-     if (canVote == 'true')
+     
+        if (canVote == 'true')
       {
-       
+
         console.log('true')
         canVote = 'false'
+
      }
-     else
+     else if (canVote == 'false') {
+         
+     }
      {
           console.log('false')
      }
